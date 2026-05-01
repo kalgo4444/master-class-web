@@ -1,0 +1,288 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial;
+	background: #f7f7f7;
+	color: #111;
+}
+
+a {
+	text-decoration: none;
+	color: #111;
+}
+
+.navbar {
+	max-width: 1100px;
+	margin: 14px auto 0;
+	padding: 0 16px;
+}
+
+.navbar-shell {
+	width: 100%;
+	background: #ffffff;
+	border: 1px solid #e8e8e8;
+	border-radius: 12px;
+	padding: 16px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.brand {
+	font-size: 22px;
+	font-weight: 700;
+	letter-spacing: 0.2px;
+}
+
+.nav-links {
+	display: flex;
+	gap: 10px;
+	list-style: none;
+	align-items: center;
+}
+
+.nav-link {
+	padding: 8px 14px;
+	border-radius: 999px;
+	color: #3b3b3b;
+	font-weight: 500;
+	transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.nav-link:hover {
+	background: #f2f4f7;
+	color: #111;
+}
+
+.nav-link.active {
+	background: #111;
+	color: #fff;
+}
+
+.landing {
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 20px 16px 36px;
+}
+
+.hero {
+	background: #fff;
+	padding: 22px;
+	border: 1px solid #e7e7e7;
+	border-radius: 4px;
+	margin-bottom: 18px;
+}
+
+.hero-tag {
+	font-size: 12px;
+	color: #555;
+	margin-bottom: 8px;
+}
+
+.hero h2 {
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+
+.hero p {
+	color: #4a4a4a;
+}
+
+.products-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+	gap: 14px;
+}
+
+.product-card {
+	background: #fff;
+	border: 1px solid #e7e7e7;
+	border-radius: 4px;
+	overflow: hidden;
+}
+
+.product-card img {
+	width: 100%;
+	height: 170px;
+	object-fit: cover;
+	display: block;
+}
+
+.product-card-body {
+	padding: 12px;
+}
+
+.product-card-body h3 {
+	font-size: 18px;
+	margin-bottom: 8px;
+}
+
+.product-card-body p {
+	font-size: 14px;
+	color: #666;
+	margin-bottom: 10px;
+}
+
+.product-card-body strong {
+	font-size: 15px;
+}
+
+.footer {
+	max-width: 1100px;
+	margin: 18px auto 0;
+	padding: 22px 16px;
+	background: #fff;
+	border: 1px solid #e7e7e7;
+	border-radius: 4px;
+}
+
+.footer-content {
+	display: grid;
+	grid-template-columns: 1.2fr 1fr auto;
+	gap: 16px;
+	align-items: start;
+}
+
+.footer-brand {
+	font-size: 20px;
+	margin-bottom: 8px;
+}
+
+.footer-text {
+	color: #666;
+	font-size: 14px;
+	max-width: 320px;
+	line-height: 1.5;
+}
+
+.footer-contact {
+	display: grid;
+	gap: 8px;
+}
+
+.footer-contact a,
+.footer-contact p {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	color: #333;
+	font-size: 14px;
+}
+
+.footer-socials {
+	display: flex;
+	gap: 10px;
+}
+
+.footer-socials a {
+	width: 34px;
+	height: 34px;
+	border: 1px solid #ddd;
+	border-radius: 50%;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	color: #111;
+	transition: 0.2s;
+}
+
+.footer-socials a:hover {
+	background: #111;
+	color: #fff;
+}
+
+.footer-copy {
+	margin-top: 14px;
+	padding-top: 12px;
+	border-top: 1px solid #eee;
+	text-align: center;
+	color: #666;
+	font-size: 13px;
+}
+
+.contact-page {
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 20px 16px 36px;
+}
+
+.contact-header {
+	background: #fff;
+	padding: 20px;
+	border: 1px solid #e7e7e7;
+	border-radius: 4px;
+	margin-bottom: 16px;
+}
+
+.contact-header h2 {
+	font-size: 30px;
+	margin-bottom: 8px;
+}
+
+.contact-header p {
+	color: #555;
+}
+
+.contact-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+	gap: 14px;
+	margin-bottom: 14px;
+}
+
+.contact-card {
+	background: #fff;
+	border: 1px solid #e7e7e7;
+	border-radius: 4px;
+	padding: 16px;
+}
+
+.contact-card h3 {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+
+.contact-card a,
+.contact-card p {
+	color: #444;
+	line-height: 1.5;
+}
+
+.contact-social-row {
+	display: flex;
+	gap: 12px;
+	flex-wrap: wrap;
+	margin-bottom: 14px;
+}
+
+.contact-social-row a {
+	background: #fff;
+	border: 1px solid #e7e7e7;
+	border-radius: 4px;
+	padding: 10px 12px;
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	color: #222;
+}
+
+.map-wrapper {
+	background: #fff;
+	border: 1px solid #e7e7e7;
+	border-radius: 4px;
+	padding: 10px;
+}
+
+.map-wrapper iframe {
+	width: 100%;
+	height: 340px;
+	border: 0;
+	border-radius: 4px;
+}
